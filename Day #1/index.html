@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day#1 practice JavaScript</title>
+</head>
+<body>
+    <h2>K-Electric Bill</h2>
+    <form id="billForm">
+        <label for="customerName">Customer Name:</label>
+        <input type="text" id="customerName" name="customerName" required><br><br>
+        
+        <label for="currentMonth">Current Month:</label>
+        <select id="currentMonth" name="currentMonth" required>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+        </select><br><br>
+
+        <label for="numUnits">Number of units:</label>
+        <input type="number" id="numUnits" name="numUnits" min="0" required><br><br>
+
+        <label for="chargesPerUnit">Charges per unit:</label>
+        <input type="number" id="chargesPerUnit" name="chargesPerUnit" min="0" step="0.01" required><br><br>
+
+        <label for="netAmount">Net Amount Payable (within Due Date):</label>
+        <input type="number" id="netAmount" name="netAmount" step="0.01" readonly><br><br>
+
+        <label for="latePaymentSurcharge">Late Payment Surcharge:</label>
+        <input type="number" id="latePaymentSurcharge" name="latePaymentSurcharge" step="0.01" readonly><br><br>
+
+        <label for="grossAmount">Gross Amount Payable (after Due Date):</label>
+        <input type="number" id="grossAmount" name="grossAmount" step="0.01" readonly><br><br>
+
+        <button type="button" onclick="generateBill()">Generate Bill</button>
+    </form>
+    
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
