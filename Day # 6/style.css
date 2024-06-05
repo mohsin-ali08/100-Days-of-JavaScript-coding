@@ -1,0 +1,22 @@
+.container{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content button {
+    width: 200px;
+    height: 49px;
+    border-radius: 6px;
+    border: 1px solid ;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+button:hover{
+    background: #a3a3a3;
+    color:#fff ;
+    border: 1px solid black;
+}
+
