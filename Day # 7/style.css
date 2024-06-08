@@ -1,0 +1,22 @@
+.dark{
+    background: #000;
+    color: #fff;
+}
+.white{
+    background: #fff;
+    color: #000;
+}
+
+.dive{
+    background: #098271;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    color: white;
+}
+
+.box2{
+    width: 400px;
+    height: 200px;
+    background: rgb(98, 110, 110);
+}
