@@ -1,1 +1,1 @@
-# 100-Days-of-JavaScript-coding Challenge :
+# 100-Days-of-JavaScript-coding :
