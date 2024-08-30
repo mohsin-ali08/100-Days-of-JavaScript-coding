@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+    }
+    .product-container{
+        padding: 30px;
+        border: 2px solid rebeccapurple;
+        
+    }
+</style>
+<body>
+    <form action="submit">
+        Name <br>
+        <input type="email" id="email">
+        password <br>
+        <input type="password" id="password">
+        <button id="button"  > submit</button>
+    </form>
+
+  <div id="showUserData">
+    <p></p>
+    <p></p>
+
+  </div> 
+
+<!-- product card practice  -->
+
+<div>
+    <input type="text" id="productTitle" placeholder="Product Title">
+    <br>
+    <input type="text" id="productPrice" placeholder="Product Price">
+    <br>
+    <textarea id="productDescription" placeholder="Product Description"></textarea>
+    <br>
+    <button onclick="addProduct()">Add Product</button>
+  </div>
+
+  <div id="productList" class="product-list">
+   
+  </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
