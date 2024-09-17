@@ -1,1 +1,1 @@
-# 100-Days-of-JavaScript-coding :
+# 20-Days-of-JavaScript-coding :
